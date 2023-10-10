@@ -13,8 +13,8 @@ import java.util.List;
 import java.util.jar.Attributes;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
-    private List<NewUserdata> items;
-    private Context context;
+    private final List<NewUserdata> items;
+    private final Context context;
 
     public MyAdapter(List<NewUserdata> items, Context context) {
         this.items = items;

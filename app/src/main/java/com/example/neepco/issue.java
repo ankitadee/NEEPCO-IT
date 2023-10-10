@@ -47,7 +47,7 @@ public class issue extends AppCompatActivity {
                         Date.getText().toString()
                 );
                 db.child("UserData")
-                        .child(Date.getText().toString())
+                        .child(Name.getText().toString())
                         .setValue(userdata)
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override

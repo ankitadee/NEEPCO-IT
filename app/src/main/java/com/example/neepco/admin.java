@@ -29,11 +29,12 @@ public class admin extends AppCompatActivity {
     mPass= findViewById(R.id.pass);
 
     mButton.setOnClickListener(new View.OnClickListener() {
-        String pass = mPass.getText().toString();
+
             @Override
             public void onClick(View view) {
 
-                String X = "IT";
+                String pass = mPass.getText().toString();
+                String X = "IT123";
                 if (pass.equals(X)) {
                     Intent intent = new Intent(admin.this, data.class);
                     startActivity(intent);
