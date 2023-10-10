@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_2"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".signup"
+    tools:visibility="visible">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="367dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="128dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="NAME"
+        android:inputType="textPersonName"
+        android:textColor="#FFF"
+        android:textColorHint="#D8D4D4"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="362dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:textColorHint="#D8D4D4"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/emp"
+        android:layout_width="362dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="EMPLOYEE ID"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:textColorHint="#D8D4D4"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/mail"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="362dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:textColorHint="#D8D4D4"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/emp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="413dp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/conf"
+        android:layout_width="362dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="CONFIRM PASSWORD"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:textColorHint="#D8D4D4"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/pass"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="482dp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="171dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="36dp"
+        android:text="REGISTER"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/conf"
+        tools:layout_editor_absoluteX="120dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:layout_editor_absoluteX="181dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

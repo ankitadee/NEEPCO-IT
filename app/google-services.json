@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "557834122235",
+    "project_id": "neepco-ef97a",
+    "storage_bucket": "neepco-ef97a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557834122235:android:1933cbee86dfd4e1e0915e",
+        "android_client_info": {
+          "package_name": "com.example.neepco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCteEKzgC0GkdO7gf2HkPCjTus7GXMMX8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

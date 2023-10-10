@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NEEPCO</string>
+    <string name="raise_complaint_here">RAISE COMPLAINT HERE</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_feedback">Enter Feedback</string>
+    <string name="enter_employee_issue">Enter Employee Issue</string>
+    <string name="enter_employee_name">Enter Employee Name</string>
+    <string name="send">Send</string>
+    <string name="enter_your_location">Enter Your Location</string>
+    <string name="admin">ADMIN</string>
+    <string name="if_admin">IF ADMIN?</string>
+    <string name="enter_the_password">Enter the password....</string>
+    <string name="done">DONE</string>
+    <string name="if_admin_click_here">IF ADMIN? CLICK HERE...</string>
+    <string name="provide_your_email_for_which_you_want_to_reset_password">Provide your email for which you want to reset password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="email">Email</string>
+    <string name="back"><![CDATA[<- BACK]]></string>
+    <string name="enter_date">Enter date</string>
+    <string name="enter_date_dd_mm_yyyy">Enter Date (dd/mm/yyyy)</string>
+    <string name="enter_date_dd_mm_yy">Enter Date (dd-mm-yy)</string>
+</resources>

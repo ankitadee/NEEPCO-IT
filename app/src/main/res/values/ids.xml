@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="mFeed" type="id" />
+    <item name="mPhone" type="id" />
+    <item name="mName" type="id" />
+    <item name="mIssue" type="id" />
+    <item name="recyclerView" type="id" />
+</resources>
